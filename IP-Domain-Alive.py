@@ -43,7 +43,7 @@ def poolmana(target_ip):
 def main():
     print('\t【欢迎来到IP反查系统】\n脚本特色：IP反查、多线程、判断存活\n输入exit退出')
     while True:
-        target_ip = input('请输入目标IP：')
+        target_ip = raw_input('请输入目标IP：')
         if target_ip == 'exit':
             break
         print('任务读取成功>>>>>\n本次目标IP：{}'.format(target_ip))
